@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    background: #ffeef8;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+    width: 95%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #f0f8ff;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 48%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(193, 124, 207);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#volver {
+    width: 48%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(193, 124, 207);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#volver:hover, input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+}
+
